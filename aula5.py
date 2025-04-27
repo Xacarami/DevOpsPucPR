@@ -7,4 +7,4 @@ if palpite == numero_secreto:
     print("Parabéns! Você acertou!")
 else:
     print(f"Errou! O número era {numero_secreto}.")
-    print("Tente novamente")
+    print("Tente novamente!")
