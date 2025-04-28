@@ -14,3 +14,10 @@ def test_verificar_palpite_erro():
     verificando_palpite_errado = verificar_palpite(5, 3)
     assert not verificando_palpite_errado
 
+def test_incrementando():
+    numero_incrementado = incrementando(5)
+    assert numero_incrementado == 6
+
+def test_duplicando():
+    numero_duplicado = duplicando(5)
+    assert numero_duplicado == 10
