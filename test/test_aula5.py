@@ -1,8 +1,8 @@
 from unittest.mock import patch
 from src.aula5 import *
 
-def gerar_numero_secreto():
-    with patch('random.randint', return_value=5):
+def test_gerar_numero_secreto():
+    with patch('src.aula5.random.randint', return_value=5):
         result = gerar_numero_secreto()
         assert result == 5
 
